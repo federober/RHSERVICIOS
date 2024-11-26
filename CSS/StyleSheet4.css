@@ -1,0 +1,25 @@
+﻿body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa;
+    color: #333;
+}
+
+.footer {
+    background-color: #f1f1f1; /* Color de fondo gris claro */
+    color: #333;
+    padding: 20px 0;
+}
+
+.img-small {
+    width: 100px; /* Imagen más pequeña */
+    height: auto;
+}
+
+.social-icon img {
+    width: 40px;
+    transition: transform 0.3s;
+}
+
+.social-icon:hover img {
+    transform: scale(1.2); /* Agranda la imagen al pasar el cursor */
+}
